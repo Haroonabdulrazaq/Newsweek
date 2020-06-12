@@ -45,6 +45,14 @@ a {
   padding: 1em;
 }
 
+@media only screen and (max-width: 1300px) {
+  .nav-list a {
+    padding: 0.5em;
+    font-size: 0.8em;
+   
+  }
+}
+
 .nav-right {
   display: flex;
   justify-content: flex-end;
@@ -463,10 +471,6 @@ a:hover {
 
   .special-img {
     width: 100%;
-  }
-
-  .subscribe {
-    background: lawngreen;
   }
 
   .subscribe-text {
