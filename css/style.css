@@ -392,7 +392,7 @@ a:hover {
 }
 
 .rick {
-  font-size: 10px;
+  display:none;
 }
 
 .svg-con svg {
@@ -505,4 +505,15 @@ a:hover {
   .subscribe-text {
     margin-top: 1em;
   }
+
+.footer-top{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.rick {
+  display:block;
+  font-size: 10px; 
+}
+
 }
