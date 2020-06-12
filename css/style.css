@@ -205,9 +205,11 @@ a:hover {
 
 .in-the-magazine {
   background: #fff;
-  height: 145vh;
+  height: auto;
   width: 97%;
   margin: 0 auto;
+  background: lawngreen;
+  
 }
 
 .first-mag-img {
@@ -243,6 +245,7 @@ a:hover {
 }
 
 .editors-pick {
+  padding-top: 5% ;
   background: #fff;
   width: 97%;
   margin: 0 auto;
@@ -453,7 +456,10 @@ a:hover {
 
   .in-the-magazine {
     height: auto;
-    margin-bottom: 13%;
+     margin-bottom: 5%;  
+  }
+  .editors-pick{
+    padding-top: 5% ;
   }
 
   .special-img {
