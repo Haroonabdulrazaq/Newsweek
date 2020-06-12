@@ -392,7 +392,7 @@ a:hover {
 }
 
 .rick {
-  display:none;
+  display: none;
 }
 
 .svg-con svg {
@@ -501,19 +501,29 @@ a:hover {
     display: flex;
     flex-direction: column;
   }
-
-  .subscribe-text {
-    margin-top: 1em;
+ 
+  .sub-img2 {
+    position: absolute;
+    top: 3em;
+    left: 8em;
   }
 
-.footer-top{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-.rick {
-  display:block;
-  font-size: 10px; 
-}
+  .subscribe-text {
+    width: 100%;
+    margin-top: -3em;
+    z-index: 2;
+    padding: 0;
+ 
+  }
 
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .rick {
+    display: block;
+    font-size: 10px;
+  }
 }
