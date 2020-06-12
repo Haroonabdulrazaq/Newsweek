@@ -208,8 +208,7 @@ a:hover {
   height: auto;
   width: 97%;
   margin: 0 auto;
-  background: lawngreen;
-  
+  padding-bottom: 50px;
 }
 
 .first-mag-img {
@@ -245,7 +244,7 @@ a:hover {
 }
 
 .editors-pick {
-  padding-top: 5% ;
+  padding-top: 3% ;
   background: #fff;
   width: 97%;
   margin: 0 auto;
@@ -458,12 +457,21 @@ a:hover {
     height: auto;
      margin-bottom: 5%;  
   }
+
   .editors-pick{
     padding-top: 5% ;
   }
 
   .special-img {
     width: 100%;
+  }
+  
+  .subscribe{
+    background: lawngreen;
+  }
+
+  .subscribe-text{
+    margin-left:3em;
   }
 }
 
