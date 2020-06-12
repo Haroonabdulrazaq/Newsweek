@@ -22,7 +22,7 @@ body {
   background: white;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+   justify-content: space-evenly; 
 }
 
 .nav-list {
@@ -34,21 +34,21 @@ body {
   width: 97.8%;
   margin: 0 auto;
 }
-
-.nav-right {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
+ 
 a {
   color: #000;
 }
 
 .nav-list a {
-  border-right: 1px solid #ddd;
-  text-align: center;
-  padding: 1em;
+  border-right: 1px solid #ddd;  
+   text-align: center;  
+   padding: 1em;  
+}
+
+.nav-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .main-section {
@@ -431,12 +431,14 @@ a:hover {
 
   .nav-right {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     align-items: center;
+  
   }
 
   .nav-right i {
-    color: white;
+    color: #ddd;
+    padding-left: 1em;
   }
 
   .info-title,
