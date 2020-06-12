@@ -10,7 +10,7 @@ This project is focused on buiding responsiveness(i.e across all media size) usi
 - CSS3
 - Bootstrap
 
-[LIVE DEMO LINK](https://haroonabdulrazaq.github.io/Newsweek-clone/)
+[LIVE DEMO LINK](https://haroonabdulrazaq.github.io/Newsweek/)
 
 
 
@@ -24,10 +24,10 @@ From your command line, first clone the project:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Haroonabdulrazaq/Newsweek-clone.git
+$ git clone https://github.com/Haroonabdulrazaq/Newsweek.git
 
 # Go into the repository
-$ cd Newsweek-clone
+$ cd Newsweek 
 
 ```
 
