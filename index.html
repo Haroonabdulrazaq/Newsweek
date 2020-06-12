@@ -1,0 +1,1361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    crossorigin="anonymous" />
+  <link rel="shortcut icon" href="/image/logo.jpg" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
+</head>
+
+<body>
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++
+    Navigation 
+    ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <div class="nav-container">
+    <nav class="  navbar d-flex justify-content-between p-0 p-lg-4">
+      <div class="col nav-left d-none d-lg-block">
+        <a href="#" class="text-white font-weight-bold text-decoration-none text-capitalize"><i
+            class="fas fa-cloud-sun"></i> &deg;6 Lagos, nG &gt;</a>
+        <p class="text-white font-weight-bold text-decoration-none">
+          Thu, Jun 10, 2020
+        </p>
+      </div>
+      <div class="col nav-middle">
+        <svg class="head-logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"
+          style="enable-background: new 0 0 395.6 60;" xml:space="preserve">
+          <g>
+            <path class="st0"
+              d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2&#9;L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11&#9;c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7&#9;l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6&#9;H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13&#9;c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8&#9;c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2&#9;C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7&#9;h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4&#9;c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1&#9;c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6&#9;c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6&#9;C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5&#9;h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9&#9;c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2&#9;c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9&#9;C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6&#9;c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1&#9;c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6&#9;v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3&#9;c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5&#9;h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7" />
+          </g>
+        </svg>
+      </div>
+      <div class="col nav-right text-right">
+        <i class="fas fa-user fa-lg d-block d-md-none "></i>
+        <a href="#"
+          class="mr-3 text-white h3-lg font-weight-bold text-decoration-none text-uppercase d-none d-sm-block">Login</a>
+        <a href="#" class="btn btn-warning font-weight-lg-bold badge-pill p-1 px-lg-4 text-uppercase">Subscribe &gt;</a>
+        <i class="fas fa-bars fa-lg d-block d-lg-none "></i>
+      </div>
+    </nav>
+  </div>
+  <!-- +++++++++++++++++++++++++Bottom Nav++++++++++++++++++++++++++ -->
+  <nav class="container-fluid navigation mb-0 d-none d-lg-block">
+    <ul class="unordered-list list-unstyled">
+      <li class="nav-list">
+        <a href="#" class="links font-weight-bold text-decoration-none">U.S.</a>
+      </li>
+      <li class="nav-list">
+        <a href="#" class="links font-weight-bold text-decoration-none">World</a>
+      </li>
+      <li class="nav-list">
+        <a href="#" class="links font-weight-bold text-decoration-none">Business</a>
+      </li>
+      <li class="nav-list">
+        <a href="#" class="links font-weight-bold text-decoration-none">Tech & Science</a>
+      </li>
+      <li class="nav-list">
+        <a href="#" class="links font-weight-bold text-decoration-none">Culture</a>
+      </li>
+      <li class="nav-list">
+        <a href="#" class="links font-weight-bold text-decoration-none">Newgeeks</a>
+      </li>
+      <li class="nav-list">
+        <a href="#" class="links font-weight-bold text-decoration-none">Sports</a>
+      </li>
+      <li class="nav-list">
+        <a href="#" class="links font-weight-bold text-decoration-none">Health</a>
+      </li>
+      <li class="nav-list">
+        <a href="#" class="links font-weight-bold text-decoration-none">The Debate</a>
+      </li>
+      <li class="nav-list">
+        <a href="#" class="links font-weight-bold text-decoration-none">Vantage</a>
+      </li>
+      <li class="nav-list">
+        <a href="#" class="links font-weight-bold text-decoration-none">Weather</a>
+      </li>
+      <li class="nav-list">
+        <form action="" class="form-inline">
+          <input type="text" placeholder="Search" class="form-control w-60 border-light pt-0" />
+        </form>
+      </li>
+    </ul>
+  </nav>
+  <!-- 
+    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    Main three Column Layout
+    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+  <div class="row container-fluid main-section">
+    <div class="row mx-1 main-col">
+      <!-- ************First Col****************** -->
+      <div class="col-12 col-md-6 col-lg-4 order-md-1 order-2 featured-story">
+        <!-- **************First Card************* -->
+        <div class="col">
+          <p class="h6 text-secondary text-uppercase font-weight-bold ">
+            Featured Stories
+          </p>
+          <div class="card">
+            <img
+              src="https://d.newsweek.com/en/full/1590053/donald-trump-military-vaccine-mobilization.webp?w=397&h=265&q=90&f=0ac316c00f09c590ccc715a76d6d0ade"
+              alt="card" class="card-img-top" />
+            <div class="card-body">
+              <div class="card-title h4 font-weight-bold text-black hover-underline">
+                The 'Law and Order' Message Donald Trump Campaigned on May Not
+                Work in 2020
+              </div>
+              <div class="card-text">
+                With cities across the country seeing mass protests against
+                police brutality, President Donald Trump wants a "law and
+                order" narrative.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- +++++++++++++Second Card++++++++++++++++++++ -->
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://d.newsweek.com/en/full/1596778/floyd-blm.webp?w=397&h=265&q=90&f=ad4b23fe624fc8d58a2647b18dcd5cb6"
+              alt="card" class="card-img-top" />
+
+            <div class="card-body">
+              <div class="card-title h4 font-weight-bold text-black hover-underline">
+                What George Floyd Protestors Want in Order to End
+                Demonstrations
+              </div>
+              <div class="card-text">
+                One Minneapolis group sent Newsweek an unpublished, 19-page
+                document with recommendations, including requiring police to
+                carry their own professional liability insurance, robust
+                civilian oversight of police, and a disciplinary reset
+                mechanism.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- +++++++++++++Third Card++++++++++++++++++++ -->
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://d.newsweek.com/en/full/1596881/meghan-markle-look-alike-new-jersey.webp?w=397&h=265&q=90&f=67d476a360d442275f5153a559db7db5"
+              alt="card" class="card-img-top" />
+
+            <div class="card-body">
+              <div class="card-title h4 font-weight-bold text-black hover-underline">
+                'I Was Bullied About My Appearance, Now I'm A Meghan Markle
+                Look-Alike'
+              </div>
+              <div class="card-text">
+                With Meghan's voice and platform, I think it's great that
+                she's speaking out about racism and George Floyd's death. It's
+                hard to think about the fact that we have to protect our
+                African American brothers and sisters
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- +++++++++++++Fourth Card++++++++++++++++++++ -->
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://d.newsweek.com/en/full/1596788/defund-police.webp?w=767&h=512&q=90&f=1c719fbc27035640acaa57d3a50c90dd"
+              alt="card" class="card-img-top" />
+
+            <div class="card-body">
+              <div class="card-title h4 font-weight-bold text-black hover-underline">
+                The 'Defund the Police' Movement Is Growing. Here's What It
+                Actually Means
+              </div>
+              <div class="card-text">
+                A number of celebrities and rights advocates have signed an
+                open letter calling to "defund the police."
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- +++++++++++++Fifth Card++++++++++++++++++++ -->
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://d.newsweek.com/en/full/1590165/roborock-h6-scece.webp?w=832&q=90&f=b2910a346636dd014f14017bd887cd7f"
+              alt="card" class="card-img-top" />
+
+            <div class="card-body">
+              <div class="card-title h4 font-weight-bold text-black hover-underline">
+                Looking for a Powerful, Lightweight and Long-lasting Cordless
+                Vacuum?
+              </div>
+              <div class="card-text">
+                Roborock H6, 2020 Red Dot Award Winner, Ultra-Long lasting
+                LiPo battery, available now on Amazon
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ************Second Col****************** -->
+      <div class="col-12 col-md-6 col-lg-5 order-md-2 order-1 top-story">
+        <p class="h6 text-secondary text-uppercase font-weight-bold">
+          Top Stories
+        </p>
+        <!-- ***********************Top Story***************************** -->
+        <div class="top-story mb-3 parent-bg">
+          <img
+            src="https://d.newsweek.com/en/full/1596898/george-floyd-protest-new-york.webp?w=591&h=364&f=e36282915995b58ead46c28093d989c2"
+            alt="" class="w-100 card-img-top" />
+
+          <div class="card">
+            <div class="card-body p-0">
+              <div class="card-title h5 font-weight-bold hover-underline text-black">
+                New Protests for Jamel Floyd, Family Says Prisoner Was
+                'Murdered" By Mace.
+              </div>
+              <div class="card-text text-dark">
+                The marchers are headed towards the Metropolitan Detention
+                Center in the Greenwood Heights neighborhood of west Brooklyn
+                where Floyd was murdered.
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="h6 text-secondary text-uppercase">
+          Heroes of the pandemic
+        </p>
+        <div class="col">
+          <div class="row">
+            <div class="row">
+              <!-- ++++++++++++++One-One+++++++++++++++++++ -->
+              <div class="col" role="button">
+                <div class="card">
+                  <img
+                    src="https://d.newsweek.com/en/full/1587033/isaac.webp?w=397&h=397&l=50&t=50&f=37a09f800d0de32cbb62148279d96551"
+                    alt="Image placeholder" class="card-img-top" />
+                  <div class="card-body p-0">
+                    <div class="card-title font-weight-bolder text-secondary">
+                      The Doctors and Nurses Crossing the Border Daily to Help
+                      Asylum Seekers
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- ++++++++++++One-Two++++++++++++++++++++++++++++ -->
+              <div class="col" role="button">
+                <div class="card">
+                  <img
+                    src="https://d.newsweek.com/en/full/1584456/evan-rosenberg.webp?w=397&h=397&f=448c3fba41c8b3b3a7bc8faf61a6af60"
+                    alt="Image placeholder" class="card-img-top" />
+                  <div class="card-body p-0">
+                    <div class="card-title font-weight-bolder text-secondary">
+                      The Charity Helping Vulnerable Holocaust Survivors
+                      During the Pandemic
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- +++++++++++++One-three++++++++++++++++++++++ -->
+              <div class="col" role="button">
+                <div class="card">
+                  <img
+                    src="https://d.newsweek.com/en/full/1585221/tamara-mcgovern.webp?w=397&h=397&f=c95c8829d23b15652d408fdf3d6bde27"
+                    alt="Image placeholder" class="card-img-top" />
+                  <div class="card-body p-0">
+                    <div class="card-title font-weight-bolder text-secondary">
+                      Women Launch Campaign Urging People to Donate Their
+                      Stimulus Checks
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <!-- ++++++++++++++Two-One+++++++++++++++++++ -->
+              <div class="col" role="button">
+                <div class="card">
+                  <img
+                    src="https://d.newsweek.com/en/full/1596730/washington-dc-protest.webp?w=397&h=397&f=21a0453c6dfd82377b0d78b1d6f6a73c"
+                    alt="Image placeholder" class="card-img-top" role="button" />
+                  <div class="card-body p-0">
+                    <div class="card-title font-weight-bolder text-secondary line-height-base" role="button">
+                      Black Lives Matter Protests Around the World, in a
+                      single Photo shoot
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- ++++++++++++Two-Two++++++++++++++++++++++++++++ -->
+              <div class="col" role="button">
+                <div class="card">
+                  <img
+                    src="https://d.newsweek.com/en/full/1596296/geroge-floyd-mural.webp?w=397&h=397&f=61c83eaa1f92f5853b3aab9e845082e4"
+                    alt="Image placeholder" class="card-img-top" />
+                  <div class="card-body p-0">
+                    <div class="card-title font-weight-bolder text-secondary">
+                      Artists on the Internet are Honoring George Floyd With
+                      Striking Portraits
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- +++++++++++++Two-three++++++++++++++++++++++ -->
+              <div class="col" role="button">
+                <div class="card">
+                  <img
+                    src="https://d.newsweek.com/en/full/1596869/daughters-dust-criterion.webp?w=397&h=397&f=3d7ef8844d767eed555409dcfbf90c55"
+                    alt="Image placeholder" class="card-img-top" />
+                  <div class="card-body p-0">
+                    <div class="card-title font-weight-bolder text-secondary">
+                      Movies by Black Filmmakers Now Streaming Free on
+                      Criterion Channel
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- +++++++++++++++++More Stories++++++++++++++++++++ -->
+        <p class="h6 text-secondary text-uppercase pt-5 pl-3">
+          More Stories
+        </p>
+        <div class="col">
+          <!-- +++++++++++++++First Flex-display++++++++++++++++++++++++ -->
+          <div class="flex-display">
+            <div class="img-container mb-0">
+              <img
+                src="https://d.newsweek.com/en/full/1597504/george-floyd-protests.webp?w=95&h=95&f=33519f3f7bb9dd0e2b3e6a7a06a3e85f"
+                alt="More stories image" class="morestory-img" role="button" />
+            </div>
+
+            <div class="info px-lg-2">
+              <p class="info-title hover-underline font-weight-bold" role="button">
+                Trump Admin Officials Say No 'Systemic Racism' Despite Ongoing
+                Protests
+              </p>
+              <p class="info-text">
+                "I think there's racism in the United States still, but I
+                don't think that the law enforcement system is systemically
+                racist,"
+              </p>
+            </div>
+          </div>
+          <!-- +++++++++++++++Second Flex-display+++++++++++++++++ -->
+          <div class="flex-display">
+            <div class="img-container mb-0">
+              <img
+                src="https://d.newsweek.com/en/full/1597510/dc-black-lives-matter-mural.webp?w=95&h=95&f=78004a47577bb7d3b23e69e35724de47"
+                alt="More stories image" class="morestory-img pb-6" role="button" />
+            </div>
+
+            <div class="info px-2">
+              <p class="info-title h6 hover-underline font-weight-bold" role="button">
+                D.C. Mayor Says She Hasn't Reviewed 'Defund the Police'
+                Message Near Mural
+              </p>
+              <p class="info-text">
+                "It's not a part of the mural, and we certainly encourage
+                expression but we are using the city streets for city art,"
+
+              </p>
+            </div>
+          </div>
+          <!-- +++++++++++++++Third Flex-display++++++++++++++++++++++++ -->
+          <div class="flex-display">
+            <div class="img-container mb-0">
+              <img
+                src="https://d.newsweek.com/en/full/1597486/black-lives-matter-protest.webp?w=95&h=95&f=9ea207a6f89bc7e0c2e384f50c32b361"
+                alt="More stories image" class="morestory-img" role="button" />
+            </div>
+
+            <div class="info px-2">
+              <p class="info-title h6 hover-underline font-weight-bold" role="button">
+                Most Voters More Concerned About George Floyd's Death Than
+                Protests: Poll
+              </p>
+              <p class="info-text">
+                Additionally, 80 percent of voters believe the country is
+                currently out of control.
+              </p>
+            </div>
+          </div>
+          <!-- +++++++++++++++Four Flex-display++++++++++++++++++++++++ -->
+          <div class="flex-display">
+            <div class="img-container mb-0">
+              <img
+                src="https://d.newsweek.com/en/full/1597488/jair-bolsonaro.webp?w=95&h=95&f=ddd534825f2f82df329df2132a044c4b"
+                alt="More stories image" class="morestory-img" role="button" />
+            </div>
+
+            <div class="info px-2">
+              <p class="info-title h6 hover-underline font-weight-bold" role="button">
+                Coronavirus Deaths Surpass 400,000 As Hard-Hit Brazil Removes
+                Data
+              </p>
+              <p class="info-text">
+                The South American country has the third-highest death toll of
+                any country, second only to the U.S. and U.K.
+              </p>
+            </div>
+          </div>
+          <!-- +++++++++++++++Fifth Flex-display++++++++++++++++++++++++ -->
+          <div class="flex-display">
+            <div class="img-container mb-0">
+              <img
+                src="https://d.newsweek.com/en/full/1597475/new-york-city-floyd-protest.webp?w=95&h=95&f=fc2788400d9d7e03a19ab9b2b885e6bf"
+                alt="More stories image" class="morestory-img" role="button" />
+            </div>
+
+            <div class="info px-2">
+              <p class="info-title h6 hover-underline font-weight-bold" role="button">
+                New York City Mayor Lifts Curfew Amid Criticism of His
+                Handling of Protests
+              </p>
+              <p class="info-text">
+                "We are lifting the curfew, effective immediately. Yesterday
+                and last night we saw the very best of our city,"
+              </p>
+            </div>
+          </div>
+          <!-- +++++++++++++++Sixth Flex-display++++++++++++++++++++++++ -->
+          <div class="flex-display">
+            <div class="img-container mb-0">
+              <img
+                src="https://d.newsweek.com/en/full/1597525/michigan-gym-coronavirus.webp?w=95&h=95&f=9322fc34df53345b1dd5089e1dfeb4f5"
+                alt="More stories image" class="morestory-img" role="button" />
+            </div>
+
+            <div class="info px-2">
+              <p class="info-title h6 hover-underline font-weight-bold" role="button">
+                Michigan Reports Lowest Daily Coronavirus Deaths Since March
+              </p>
+              <p class="info-text">
+                Michigan health officials confirmed four additional statewide
+                deaths due to the novel coronavirus on Sunday.
+              </p>
+            </div>
+          </div>
+          <!-- +++++++++++++++Seventh Flex-display++++++++++++++++++++++++ -->
+          <div class="flex-display">
+            <div class="img-container mb-0">
+              <img
+                src="https://d.newsweek.com/en/full/1580393/sci-phoenix.webp?w=95&h=95&f=1bb9528eb24152db9c3b35c8aee1c761"
+                alt="More stories image" class="morestory-img" role="button" />
+            </div>
+
+            <div class="info px-2">
+              <p class="info-title h6 hover-underline font-weight-bold" role="button">
+                Pennsylvania Death Row Inmate Freed After Judge Overturns
+                Conviction
+              </p>
+              <p class="info-text">
+                Walter Ogrod spent almost 30 years behind bars for the murder
+                of 4-year-old Barbara Jean Horn in 1988
+              </p>
+            </div>
+          </div>
+          <!-- +++++++++++++++Eight Flex-display++++++++++++++++++++++++ -->
+          <div class="flex-display">
+            <div class="img-container mb-0">
+              <img
+                src="https://d.newsweek.com/en/full/1597466/covid-19-research.webp?w=95&h=95&f=05948300bdf6b772a9ca0ce8ffbaac41"
+                alt="More stories image" class="morestory-img" role="button" />
+            </div>
+
+            <div class="info px-2">
+              <p class="info-title h6 hover-underline font-weight-bold" role="button">
+                China Vows to Share COVID-19 Vaccine Amid Claim of Sabotage by
+                U.S Senator
+              </p>
+              <p class="info-text">
+                "Communist China, they are not going to share," said
+                Republican senator Rick Scott.
+              </p>
+            </div>
+          </div>
+          <!-- +++++++++++++++Ninth Flex-display++++++++++++++++++++++++ -->
+          <div class="flex-display">
+            <div class="img-container mb-0">
+              <img
+                src="https://d.newsweek.com/en/full/1597513/great-white-shark.webp?w=95&h=95&f=d2d5b2a98070151b3fbf20477d86d45e"
+                alt="More stories image" class="morestory-img" role="button" />
+            </div>
+
+            <div class="info px-2">
+              <p class="info-title h6 hover-underline font-weight-bold" role="button">
+                Surfer Dies After Attack by 10-Foot Great White Shark in
+                Australia
+              </p>
+              <p class="info-text">
+                "They did everything they could to try and save his life, but
+                despite their best efforts, were unable to do so"
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ************Third Col****************** -->
+      <div class="col-12 col-lg-3 order-md-3 order-3 debate">
+        <p class="h6 text-secondary text-uppercase font-weight-bold">
+          The debate
+        </p>
+        <div class="debate-parent">
+          <!-- +++++++++++++First Debate+++++++++++++++++++++++ -->
+          <div class="first-debate pb-2">
+            <div class="thumbnail">
+              <img
+                src="https://d.newsweek.com/en/full/1596838/eugene-kontorovich.webp?w=150&h=150&f=814307c1a56b61776f2e6954a2ec2cdd"
+                alt="" class="debator-img mt-2" />
+            </div>
+            <div class="debate-text font-weight-bold px-3 mt-2">
+              <span class="highlight">Governors Can't Pick and Choose Constitutional Rights</span>
+              <span class="author d-block mt-3">
+                <span class="by text-secondary font-weight-normal h6">
+                  BY</span>
+                EUGENE KONTOROVICH
+              </span>
+            </div>
+          </div>
+          <!-- +++++++++++++Second Debate+++++++++++++++++++++++ -->
+          <div class="second-debate pb-2">
+            <div class="debate-text font-weight-bold px-3 mt-2">
+              <span class="highlight">
+                Pandemic Constitutional Rights: Not an All-Or-Nothing
+                Proposition</span>
+              <span class="author d-block mt-3">
+                <span class="by text-secondary font-weight-normal h6">
+                  BY</span>
+                MICHELE GOODWIN
+              </span>
+            </div>
+            <div class="thumbnail">
+              <img
+                src="https://d.newsweek.com/en/full/1596837/michele-goodwin.webp?w=150&h=150&f=1ca7b38fdf287cb9199f0c5b38479324"
+                alt="" class="debator-img mt-2" />
+            </div>
+          </div>
+        </div>
+        <p class="h6 text-secondary text-uppercase mt-5" role="button">
+          OPINION
+        </p>
+        <!-- ++++++++++++++++++++++++OPINION SECTION+++++++++++++++++++++++ -->
+        <div class="opinion-parent">
+          <!-- ++++++++++++++++++++First Opinion++++++++++++++++++++++++++ -->
+          <div class="opinion">
+            <div class="opinion-img">
+              <img
+                src="https://d.newsweek.com/en/full/1597017/joan-cook.webp?w=63&h=63&f=1567ffcb0be01f68b9806f127cfd127d"
+                alt="" class="mt-3" />
+            </div>
+            <div class="opinion-text h6 px-3 py-2 font-weight-bold highlight">
+              Justice for George Floyd Is a Must. But to End the Cycle, We
+              Need Dialogue
+              <span class="author d-block mt-3 text-secondary pb-0">
+                BY JOAN COOK
+              </span>
+            </div>
+          </div>
+          <!-- ++++++++++++++++++++Second Opinion++++++++++++++++++++++++++ -->
+          <div class="opinion">
+            <div class="opinion-img">
+              <img
+                src="https://d.newsweek.com/en/full/1588751/jason-rantz.webp?w=63&h=63&f=f8afd026e20e8ab3f6d6fa08c4efc72c"
+                alt="" class="mt-3" />
+            </div>
+            <div class="opinion-text h6 px-3 py-2 font-weight-bold highlight">
+              Condemn the Selective Outrage of Virtue-Signaling Progressives
+
+              <span class="author d-block mt-3 text-secondary pb-0">
+                BY JASON RANTZ
+              </span>
+            </div>
+          </div>
+          <!-- ++++++++++++++++++++Third Opinion++++++++++++++++++++++++++ -->
+          <div class="opinion">
+            <div class="opinion-img">
+              <img
+                src="https://d.newsweek.com/en/full/1590779/jon-miltimore.webp?w=63&h=63&f=6af12982185dc188967e5b4a74826033"
+                alt="" class="mt-3" />
+            </div>
+            <div class="opinion-text h6 px-3 py-2 font-weight-bold highlight">
+              Drew Brees and the New "Struggle Sessions"
+
+              <span class="author d-block mt-3 text-secondary pb-0">
+                BY JON MILTIMORE
+              </span>
+            </div>
+          </div>
+          <!-- ++++++++++++++++++++Fourth Opinion++++++++++++++++++++++++++ -->
+          <div class="opinion">
+            <div class="opinion-img">
+              <img
+                src="https://d.newsweek.com/en/full/1597017/joan-cook.webp?w=63&h=63&f=1567ffcb0be01f68b9806f127cfd127d"
+                alt="" class="mt-3" />
+            </div>
+            <div class="opinion-text h6 px-3 py-2 font-weight-bold highlight">
+              Justice for George Floyd Is a Must. But to End the Cycle, We
+              Need Dialogue
+              <span class="author d-block mt-3 text-secondary pb-0">
+                BY JOAN COOK
+              </span>
+            </div>
+          </div>
+          <!-- ++++++++++++++++++++Fifth Opinion++++++++++++++++++++++++++ -->
+          <div class="opinion">
+            <div class="opinion-img">
+              <img
+                src="https://d.newsweek.com/en/full/1596520/jaco-booyens.webp?w=63&h=63&f=abf43a5056e2cea850a15db47d22a1c0"
+                alt="" class="mt-3" />
+            </div>
+            <div class="opinion-text h6 px-3 py-2 font-weight-bold highlight">
+              America Needs a Leader Who Will Confront China's Loan Sharking
+              in Africa
+
+              <span class="author d-block mt-3 text-secondary pb-0">
+                BY JACO BOOYENS
+              </span>
+            </div>
+          </div>
+          <!-- ++++++++++++++++++++Sixth Opinion++++++++++++++++++++++++++ -->
+          <div class="opinion">
+            <div class="opinion-img">
+              <img
+                src="https://d.newsweek.com/en/full/1590132/john-yoo-robert-delahunty.webp?w=63&h=63&f=9ca0e1ebe50ee1c76070df82a1d93c4e"
+                alt="" class="mt-3" />
+            </div>
+            <div class="opinion-text h6 px-3 py-2 font-weight-bold highlight">
+              Domestic Military Use Is Lawful but Not Yet Prudent
+
+              <span class="author d-block mt-3 text-secondary pb-0">
+                BY JOHN YOO AND ROBERT DELAHUNTY
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- +++++++++++++++++Sponsored Insight++++++++++++++++++++++++++++ -->
+        <div class="sponsored-parent">
+          <!-- +++++++++++++++++First Sponsored Insight++++++++++++++++++++++++++++ -->
+          <div class="card card-border">
+            <img
+              src="https://d.newsweek.com/en/full/1580691/university-virginias-college-wise.webp?w=300&h=200&f=665e3b331c54c8cbb72b88aa8e332939"
+              alt="card" class="card-img-top" />
+            <div class="card-body">
+              <div class="card-title h5 font-weight-bold text-black hover-underline">
+                What Sets the Leading Liberal Arts Schools Apart
+              </div>
+              <div class="card-text">
+                There are a number of great Liberal Arts Schools in the USA
+                today, but what qualities do the best of them have?
+              </div>
+            </div>
+          </div>
+          <!-- ++++++++++++++++++Sponsor-form++++++++++++++++++++++ -->
+          <div class="news-letter card-border mx-auto mb-5">
+            <div class="h5 font-weight-bold">
+              <img src="image/logo.jpg" alt="logo image" />
+              START YOUR DAY WITH OUR TOP 5 ARTICLES
+            </div>
+            <div class="sponsor-form">
+              <form action="" class="form-group">
+                <input type="text" placeholder="Email address" class="form-control" />
+              </form>
+            </div>
+            <button class="btn w-100 font-weight-bold text-light">
+              FREE SIGNUP &gt;
+            </button>
+          </div>
+          <!-- +++++++++++++++++Second Sponsored Insight++++++++++++++++++++++++++++ -->
+          <div class="card card-border mb-5">
+            <img
+              src="https://d.newsweek.com/en/full/1579689/macau-university-science-technology.webp?w=300&h=200&f=484aba9a6ebd15eb3e59bd800e92e36e"
+              alt="card" class="card-img-top" />
+            <div class="card-body">
+              <div class="card-title h5 font-weight-bold text-black hover-underline">
+                What Qualities Make a Leading University?
+              </div>
+              <div class="card-text">
+                A Leading University has to have a track record of producing
+                well qualified, gifted and employable candidates. Which
+                schools earn the accolade?
+              </div>
+            </div>
+          </div>
+          <!-- +++++++++++++++++Third Sponsored Insight++++++++++++++++++++++++++++ -->
+          <div class="card card-border mb-5">
+            <img
+              src="https://d.newsweek.com/en/full/1587568/infection-prevention-products-banner.webp?w=790&f=51a84fcc3ec1917f4953a8eef9ce66ac"
+              alt="card" class="card-img-top" />
+            <div class="card-body">
+              <div class="card-title h5 font-weight-bold text-black hover-underline">
+                Best Infection Prevention Products
+              </div>
+              <div class="card-text">
+                During the coronavirus outbreak, health care is more important
+                than ever. In Newsweek's first Best Health Care series, we
+                highlight the best infection prevention products.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 
+      ===================================================================================
+                               IN THE MAGAZINE
+      =================================================================================== -->
+  <div class="container-fluid in-the-magazine">
+    <div class="h5 font-weight-bold mb-0 pb-2 text-center">
+      <img src="image/logo.jpg" alt="logo image" class="news-letter-img" />
+      IN THE MAGAZINE
+    </div>
+
+    <div class="container-fluid the-magazine">
+      <!-- +++++++++++++++++First ROW+++++++++++++++++++ -->
+      <div class="row mag-first-row">
+        <!-- +++++First Card++++++++++++++ -->
+        <div class="col-12 col-md-3 card mag-card p-0 pb-0">
+          <img
+            src="https://d.newsweek.com/en/full/1596252/cover-june-12-2020.webp?w=290&h=387&q=90&f=d60ab87450256b535280587228a49ed8"
+            alt="In the magazine image" class="card-img-top first-mag-img" />
+          <div class="see-feature h5 stretched-link font-weight-bold text-center w-100 h-100 pt-1" role="button">
+            SEE ALL FEATURES &gt;
+          </div>
+        </div>
+        <!-- +++++Second Card++++++++++++++ -->
+        <div class="col-12 col-md-3 card mag-card pb-0">
+          <img
+            src="https://d.newsweek.com/en/full/1595200/fea-biden-banner.webp?w=466&h=311&l=48&t=36&q=90&f=16dca6d1bde2bb2b38c620d3ee820920"
+            alt="In the magazine image" class="card-img-top magazine-img mt-3" />
+          <div class="anchor-parent mt-2">
+            <a href="#" class="font-weight-bold p-1">COVER</a>
+            <a href="#" class="font-weight-bold p-1">POLITICS</a>
+          </div>
+
+          <div class="card-body p-0 pt-2">
+            <div class="w-100 h5 stretched-link font-weight-bold hover-underline" role="button">
+              Biden, the Moderate, Plans the Most Radical Economic Overhaul
+              Since FDR
+            </div>
+          </div>
+        </div>
+        <!-- +++++Third Card++++++++++++++ -->
+        <div class="col-12 col-md-3 card mag-card pb-0">
+          <img
+            src="https://d.newsweek.com/en/full/1594675/fea-mentalhealth-02-1210859071-web-banner.webp?w=466&h=311&l=52&t=45&q=90&f=3e2ce641044c626d52ffa0287f56627a"
+            alt="In the magazine image" class="card-img-top magazine-img mt-3" />
+          <div class="anchor-parent mt-2">
+            <a href="#" class="font-weight-bold p-1">FEATURES </a>
+            <a href="#" class="font-weight-bold p-1">HEALTH</a>
+          </div>
+
+          <div class="card-body p-0 pt-2">
+            <div class="w-100 h5 stretched-link font-weight-bold hover-underline" role="button">
+              Mental Health Toll of Coronavirus Could Rival that of the
+              Disease Itself
+            </div>
+          </div>
+        </div>
+        <!-- +++++Fourth Card++++++++++++++ -->
+        <div class="col-12 col-md-3 card mag-card pb-0">
+          <img
+            src="https://d.newsweek.com/en/full/1593371/coronavirus-testing.webp?w=466&h=311&q=90&f=0b5a920baa2c278b5d8754ec68ad062c"
+            alt="In the magazine image" class="card-img-top magazine-img mt-3" />
+          <div class="anchor-parent mt-2">
+            <a href="#" class="font-weight-bold p-1">PERISCOPE</a>
+            <a href="#" class="font-weight-bold p-1">HEALTH</a>
+          </div>
+
+          <div class="card-body p-0 pt-2">
+            <div class="w-100 h5 stretched-link font-weight-bold hover-underline" role="button">
+              Contact Tracing Won't Solve the Coronavirus Crisis:
+              Epidemiologist
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- +++++++++++++++++Second ROW+++++++++++++++++++ -->
+      <div class="row sec-mag-row pt-0">
+        <!-- +++++First Card++++++++++++++ -->
+        <div class="col-12 col-md-3 card mag-card p-0 mb-3">
+          <img
+            src="https://d.newsweek.com/en/full/1596099/cul-cooper-banner.webp?w=466&h=311&l=43&t=51&q=90&f=c47237399d8b8044b685bd7a8a6f50ca"
+            alt="In the magazine image" class="card-img-top magazine-img2" />
+          <div class="anchor-parent mt-2">
+            <a href="#" class="font-weight-bold p-1">FEATURES </a>
+            <a href="#" class="font-weight-bold p-1">CULTURE</a>
+          </div>
+          <div class="card-body p-0 pt-2">
+            <div class="w-100 h5 stretched-link font-weight-bold hover-underline" role="button">
+              Biden, the Moderate, Plans the Most Radical Economic Overhaul
+              Since FDR
+            </div>
+          </div>
+        </div>
+        <!-- +++++Second Card++++++++++++++ -->
+        <div class="col-12 col-md-3 card mag-card  mb-3">
+          <img
+            src="https://d.newsweek.com/en/full/1593156/cul-missmanners-banner.webp?w=466&h=311&l=50&t=48&q=90&f=8cce704668cd92510666c16bb321da64"
+            alt="In the magazine image" class="card-img-top magazine-img2" />
+          <div class="anchor-parent mt-2">
+            <a href="#" class="font-weight-bold p-1">DOWNTIME</a>
+            <a href="#" class="font-weight-bold p-1">CULTURE</a>
+          </div>
+
+          <div class="card-body p-0 pt-2">
+            <div class="w-100 h5 stretched-link font-weight-bold hover-underline" role="button">
+              Biden, the Moderate, Plans the Most Radical Economic Overhaul
+              Since FDR
+            </div>
+          </div>
+        </div>
+        <!-- +++++Third Card++++++++++++++ -->
+        <div class="col-12 col-md-3 card mag-card  mb-3">
+          <img
+            src="https://d.newsweek.com/en/full/1593995/cul-ps-kudrow.webp?w=466&h=311&l=43&t=40&q=90&f=88f3f1ba529859ba4658cdafa9a48c74"
+            alt="In the magazine image" class="card-img-top magazine-img2" />
+          <div class="anchor-parent mt-2">
+            <a href="#" class="font-weight-bold p-1">DOWNTIME</a>
+            <a href="#" class="font-weight-bold p-1">CULTURE</a>
+          </div>
+
+          <div class="card-body p-0 pt-2">
+            <div class="w-100 h5 stretched-link font-weight-bold hover-underline" role="button">
+              Mental Health Toll of Coronavirus Could Rival that of the
+              Disease Itself
+            </div>
+          </div>
+        </div>
+        <!-- +++++Fourth Card++++++++++++++ -->
+        <div class="col-12 col-md-3 card mag-card  ">
+          <img
+            src="https://d.newsweek.com/en/full/1596244/space-force-steve-carell.webp?w=397&h=265&f=0cac828ad72d8ab38fa4e9b37198e523"
+            alt="In the magazine image" class="card-img-top magazine-img2" />
+          <div class="anchor-parent mt-2">
+            <a href="#" class="font-weight-bold p-1">IN FOCUS</a>
+          </div>
+
+          <div class="card-body p-0 pt-2">
+            <div class="w-100 h5 stretched-link font-weight-bold hover-underline" role="button">
+              Contact Tracing Won't Solve the Coronavirus Crisis:
+              Epidemiologist
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 
+      ===================================================================================
+                        Editors Pick
+      =================================================================================== -->
+  <div class="container-fluid editors-pick">
+    <div class="h5 font-weight-bold mb-0 pb-2 text-center">
+      <img src="image/logo.jpg" alt="logo image" class="news-letter-img" />
+      EDITOR'S PICK
+    </div>
+    <div class="row">
+      <!-- +++++++++++++First Pick++++++++++++++++ -->
+      <div class="card col-12 col-md-3">
+        <img
+          src="https://d.newsweek.com/en/full/1597996/nancy-pelosi.webp?w=397&h=265&f=36f2f24bc61e22934c91fef019e08393"
+          alt="Editor-pick-img" class="card-img-top" />
+        <div class="card-body">
+          <div class="card-title h5 font-weight-bold text-black hover-underline">
+            Stimulus Check Calculator: How Much Could You Get If HEROES Act
+            Passes?
+          </div>
+          <div class="text">
+            Economic impact payments in the HEROES Act are similar to those
+            outlined in the CARES Act, but there is a difference in how
+            payments are allocated for dependents.
+          </div>
+        </div>
+      </div>
+
+      <!-- +++++++++++++Second Pick+++++++++++++++ -->
+      <div class="card col-12 col-md-3">
+        <img src="https://d.newsweek.com/en/full/1597645/mpd.webp?w=397&h=265&f=932661ad9ca4e86ecb22636fdd339809"
+          alt="card" class="card-img-top" />
+        <div class="card-body">
+          <div class="card-title h5 font-weight-bold text-black hover-underline">
+            Minneapolis is Not the First City to Disband Its Police Department
+          </div>
+          <div class="card-text">
+            The city of Camden disbanded its entire police department in 2013
+            and replaced it with a new force covering Camden County.
+          </div>
+        </div>
+      </div>
+
+      <!-- +++++++++++++Third Pick+++++++++++++++ -->
+      <div class="card col-12 col-md-3">
+        <img
+          src="https://d.newsweek.com/en/full/1597703/oregon-coronavirus-march-2020.webp?w=397&h=265&f=433d4537cb90ff0d56c73feacd85aae3"
+          alt="card" class="card-img-top" />
+        <div class="card-body">
+          <div class="card-title h5 font-weight-bold text-black hover-underline">
+            Oregon Sees Highest Single-Day Rise in COVID-19 Cases Since
+            Outbreak Began
+          </div>
+          <div class="card-text">
+            Workplace outbreaks were said to be among the sources of the
+            recent spike in cases, the Oregon Health Authority reports
+          </div>
+        </div>
+      </div>
+      <!-- +++++++++++++++++++++++++FourthPIck+++++++++++++++++++++ -->
+      <div class="card col-12 col-md-3">
+        <img
+          src="https://d.newsweek.com/en/full/1596244/space-force-steve-carell.webp?w=397&h=265&f=0cac828ad72d8ab38fa4e9b37198e523"
+          alt="Editor-pick-img" class="card-img-top" />
+        <div class="card-body">
+          <div class="card-title h5 font-weight-bold text-black hover-underline">
+            'Space Force' on Netflix Beat the U.S. Government to the Trademark
+          </div>
+          <div class="text">
+            "Space Force" on Netflix has beaten the U.S. government to secure
+            the trademark to the name in a number of countries. Here's what
+            that could mean.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- +++++++++++++Second Row Editors Pick++++++++++++++ -->
+    <div class="row">
+      <!-- +++++++++++++First Pick++++++++++++++++ -->
+      <div class="card col-12 col-md-3">
+        <img
+          src="https://d.newsweek.com/en/full/1597969/armed-nz-police-officers.webp?w=397&h=265&f=d87089791b9527a491f86646d5983c18"
+          alt="Editor-pick-img" class="card-img-top" />
+        <div class="card-body">
+          <div class="card-title h5 font-weight-bold text-black hover-underline">
+            As U.S. Debates 'Defund the Police,' New Zealand Scraps Armed
+            Units
+          </div>
+          <div class="text">
+            A debate about the militarization of New Zealand's police has
+            raged since a trial to arm police units began in the wake of the
+            Christchurch mosque killings.
+          </div>
+        </div>
+      </div>
+
+      <!-- +++++++++++++Second Pick+++++++++++++++ -->
+      <div class="card col-12 col-md-3">
+        <img
+          src="https://d.newsweek.com/en/full/1597733/floyd-mural.webp?w=397&h=265&f=aead7424ea51ff8c45ee510606f0a3d0"
+          alt="card" class="card-img-top" />
+        <div class="card-body">
+          <div class="card-title h5 font-weight-bold text-black hover-underline">
+            Justin Howell GoFundMe Raises More Than $150,000 For Protester
+          </div>
+          <div class="card-text">
+            Howell, a computer science student at Texas State University, was
+            shot with a "less-lethal" projectile by police in Austin as he
+            attended a protest against police brutality last month.
+          </div>
+        </div>
+      </div>
+
+      <!-- +++++++++++++Third Pick+++++++++++++++ -->
+      <div class="card col-12 col-md-3">
+        <img
+          src="https://d.newsweek.com/en/full/1597625/great-white-shark.webp?w=397&h=265&f=985cc6846a54c741273b798d1e16c9c4"
+          alt="card" class="card-img-top" />
+        <div class="card-body">
+          <div class="card-title h5 font-weight-bold text-black hover-underline">
+            Where Great White Sharks Go to Feed Surprises Scientists
+          </div>
+          <div class="card-text">
+            Researchers conducted the first ever detailed study of the diets
+            of great whites off the east coast of Australia.
+          </div>
+        </div>
+      </div>
+      <!-- +++++++++++++++++++++++++FourthPIck+++++++++++++++++++++ -->
+      <div class="card col-12 col-md-3">
+        <img
+          src="https://d.newsweek.com/en/full/1596244/space-force-steve-carell.webp?w=397&h=265&f=0cac828ad72d8ab38fa4e9b37198e523"
+          alt="Editor-pick-img" class="card-img-top" />
+        <div class="card-body">
+          <div class="card-title h5 font-weight-bold text-black hover-underline">
+            'Space Force' on Netflix Beat the U.S. Government to the Trademark
+          </div>
+          <div class="text">
+            "Space Force" on Netflix has beaten the U.S. government to secure
+            the trademark to the name in a number of countries. Here's what
+            that could mean.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 
+      ===================================================================================
+                        Segments & FOOTER
+      =================================================================================== -->
+  <div class="container-fluid in-segments py-4">
+    <!-- US SEGMENT -->
+    <p class="h5 segments-title">U.S.</p>
+    <div class="row us">
+      <!-- First Card -->
+      <div class="col-12 col-md-4">
+        <img
+          src="https://d.newsweek.com/en/full/1598780/senate-majority-leader-mitch-mcconnell.webp?w=397&h=265&f=62cf1897016b4d37edfde6ddd2601389"
+          alt="US image" class="special-img" />
+        <div class="title h5 hover-underline font-weight-bolder pt-2">
+          University of Alabama to Remove Names of Confederate Soldiers From
+          Plaques
+        </div>
+      </div>
+      <!-- Second Card -->
+      <div class="card col-12 col-md-4 pb-0">
+        <img src="https://d.newsweek.com/en/full/1598312/joe-biden.webp?w=397&h=265&f=4bf5b5c6d96e5fd4091b4da9d3fc6433"
+          alt="" />
+        <div class="title h5 hover-underline font-weight-bolder pt-2">
+          Biden Says Justice and Prison Systems Should Focus On
+          'Rehabilitation'
+        </div>
+      </div>
+      <!-- Third Card -->
+      <div class="col-12 col-md-4">
+        <div class="row segment-third pb-3">
+          <img src="https://d.newsweek.com/en/full/1598308/police.webp?w=397&h=265&f=cd65e0722007125e80ebae8f4db0196e"
+            alt="" class="segment-img" />
+          <p class="segment-text highlight">
+            Choke Holds Are Still Permitted at Two South Florida Police
+            Departments
+          </p>
+        </div>
+        <div class="row segment-third bod py-3">
+          <img src="https://d.newsweek.com/en/full/1598308/police.webp?w=397&h=265&f=cd65e0722007125e80ebae8f4db0196e"
+            alt="US image" class="segment-img" />
+          <p class="segment-text highlight">
+            Protesters Topple, Burn Christopher Columbus Statue Before Tossing
+            in Lake
+          </p>
+        </div>
+        <div class="row segment-third bod py-3">
+          <img src="https://d.newsweek.com/en/full/1598308/police.webp?w=397&h=265&f=cd65e0722007125e80ebae8f4db0196e"
+            alt="US image" class="segment-img" />
+          <p class="segment-text highlight">
+            California Teacher Threatens to Kill Protester and Daughter in
+            Viral Video
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- WORLD SEGMENT  -->
+    <p class="h5 segments-title bod pt-4">World</p>
+    <div class="row world">
+      <!-- First Card -->
+      <div class="card col-12 col-md-4">
+        <img
+          src="https://d.newsweek.com/en/full/1598183/demand-cecil-rhodes-statute-fall.webp?w=397&h=265&f=4312b36437459a031b82108ecc54c9db"
+          alt="World image" />
+        <div class="title h5 hover-underline font-weight-bolder pt-2">
+          Video of Amazon Driver Praying for Baby With Medical Needs Goes
+          Viral
+        </div>
+      </div>
+      <!-- Second Card -->
+      <div class="card col-12 col-md-4">
+        <img
+          src="https://d.newsweek.com/en/full/1598081/donald-trump-ramstein.webp?w=397&h=265&f=58e4960cb8a836f49eed532e0f3ff8c3"
+          alt="World image" />
+        <div class="title h5 hover-underline font-weight-bolder pt-2">
+          Video of Amazon Driver Praying for Baby With Medical Needs Goes
+          Viral
+        </div>
+      </div>
+      <!-- Third Card -->
+      <div class="col-12 col-md-4">
+        <div class="row segment-third mb-3">
+          <img src="https://d.newsweek.com/en/full/1598308/police.webp?w=397&h=265&f=cd65e0722007125e80ebae8f4db0196e"
+            alt="World image" class="segment-img" />
+          <p class="segment-text highlight">
+            Choke Holds Are Still Permitted at Two South Florida Police
+            Departments
+          </p>
+        </div>
+        <div class="row segment-third bod mb-3 pt-3">
+          <img src="https://d.newsweek.com/en/full/1598308/police.webp?w=397&h=265&f=cd65e0722007125e80ebae8f4db0196e"
+            alt="World image" class="segment-img" />
+          <p class="segment-text highlight">
+            Choke Holds Are Still Permitted at Two South Florida Police
+            Departments
+          </p>
+        </div>
+        <div class="row segment-third bod mb-3 pt-3">
+          <img src="https://d.newsweek.com/en/full/1598308/police.webp?w=397&h=265&f=cd65e0722007125e80ebae8f4db0196e"
+            alt="World image" class="segment-img" />
+          <p class="segment-text highlight">
+            Choke Holds Are Still Permitted at Two South Florida Police
+            Departments
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Tech & Science  -->
+    <p class="h5 segments-title bod pt-4">Tech & Science</p>
+    <div class="row world">
+      <!-- First Card -->
+      <div class="card col-12 col-md-4">
+        <img
+          src="https://d.newsweek.com/en/full/1598138/annular-solar-eclipse.webp?w=397&h=265&f=683e3e6f9b1278f83c0eb044dd4bf4a7"
+          alt="World image" />
+        <div class="title h5 hover-underline font-weight-bolder pt-2">
+          Solar Eclipse 'Ring of Fire' to Appear the Day After Summer Solstice
+        </div>
+      </div>
+      <!-- Second Card -->
+      <div class="card col-12 col-md-4">
+        <img src="https://d.newsweek.com/en/full/1598106/africa.webp?w=397&h=265&f=62d0a4c497d5736c81c8401fdd2c8445"
+          alt="World image" />
+        <div class="title h5 hover-underline font-weight-bolder pt-2">
+          One of Africa's Tectonic Plates Is Rotating in a Different Direction
+        </div>
+      </div>
+      <!-- Third Card -->
+      <div class="col-12 col-md-4">
+        <div class="row segment-third mb-3">
+          <img src="https://d.newsweek.com/en/full/1598308/police.webp?w=397&h=265&f=cd65e0722007125e80ebae8f4db0196e"
+            alt="World image" class="segment-img" />
+          <p class="segment-text highlight">
+            Choke Holds Are Still Permitted at Two South Florida Police
+            Departments
+          </p>
+        </div>
+        <div class="row segment-third bod mb-3 pt-3">
+          <img src="https://d.newsweek.com/en/full/1598308/police.webp?w=397&h=265&f=cd65e0722007125e80ebae8f4db0196e"
+            alt="World image" class="segment-img" />
+          <p class="segment-text highlight">
+            Choke Holds Are Still Permitted at Two South Florida Police
+            Departments
+          </p>
+        </div>
+        <div class="row segment-third bod mb-3 pt-3">
+          <img src="https://d.newsweek.com/en/full/1598308/police.webp?w=397&h=265&f=cd65e0722007125e80ebae8f4db0196e"
+            alt="World image" class="segment-img" />
+          <p class="segment-text highlight">
+            Choke Holds Are Still Permitted at Two South Florida Police
+            Departments
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Culture  -->
+    <p class="h5 segments-title bod pt-4">Culture</p>
+    <div class="row world">
+      <!-- First Card -->
+      <div class="card col-12 col-md-4">
+        <img
+          src="https://d.newsweek.com/en/full/1598196/agt-season-15-recap-results.webp?w=397&h=265&f=5d3dc18917ac80f0c8897c66d66d247b"
+          alt="World image" />
+        <div class="title h5 hover-underline font-weight-bolder pt-2">
+          'AGT' Season 15 Recap and Results: Which Contestants Moved Past
+          Auditions?
+        </div>
+      </div>
+      <!-- Second Card -->
+      <div class="card col-12 col-md-4">
+        <img src="https://d.newsweek.com/en/full/1598154/top-game-1.webp?w=397&h=265&f=1e1740d999994133b134bd17121f79e8"
+          alt="World image" />
+        <div class="title h5 hover-underline font-weight-bolder pt-2">
+          Meet The Bull Who's Fathering the Next Generation of Walmart's Beef
+        </div>
+      </div>
+      <!-- Third Card -->
+      <div class="col-12 col-md-4">
+        <div class="row segment-third mb-3">
+          <img src="https://d.newsweek.com/en/full/1598308/police.webp?w=397&h=265&f=cd65e0722007125e80ebae8f4db0196e"
+            alt="World image" class="segment-img" />
+          <p class="segment-text highlight">
+            Choke Holds Are Still Permitted at Two South Florida Police
+            Departments
+          </p>
+        </div>
+        <div class="row segment-third bod mb-3 pt-3">
+          <img src="https://d.newsweek.com/en/full/1598308/police.webp?w=397&h=265&f=cd65e0722007125e80ebae8f4db0196e"
+            alt="World image" class="segment-img" />
+          <p class="segment-text highlight">
+            Choke Holds Are Still Permitted at Two South Florida Police
+            Departments
+          </p>
+        </div>
+        <div class="row segment-third bod mb-3 pt-3">
+          <img src="https://d.newsweek.com/en/full/1598308/police.webp?w=397&h=265&f=cd65e0722007125e80ebae8f4db0196e"
+            alt="World image" class="segment-img" />
+          <p class="segment-text highlight">
+            Choke Holds Are Still Permitted at Two South Florida Police
+            Departments
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Sport-->
+    <p class="h5 segments-title bod pt-4">Sport</p>
+    <div class="row world">
+      <!-- First Card -->
+      <div class="card col-12 col-md-4">
+        <img
+          src="https://d.newsweek.com/en/full/1598321/reggie-miller-nba.webp?w=397&h=265&f=e73bef2caf098ab55f6b412a763b9ec5"
+          alt="World image" />
+        <div class="title h5 hover-underline font-weight-bolder pt-2">
+          Reggie Miller Slams NYPD Union Chief For Complaining About Police
+          Treatment
+        </div>
+      </div>
+      <!-- Second Card -->
+      <div class="card col-12 col-md-4">
+        <img
+          src="https://d.newsweek.com/en/full/1598302/michael-jordan.webp?w=397&h=265&f=165b62d289cdc2f0955ad149cbfdb6e7"
+          alt="World image" />
+        <div class="title h5 hover-underline font-weight-bolder pt-2">
+          Michael Jordan's Yacht Crew Reels in 442-Pound Marlin During
+          Tournament
+        </div>
+      </div>
+      <!-- Third Card -->
+      <div class="col-12 col-md-4">
+        <div class="row segment-third mb-3">
+          <img src="https://d.newsweek.com/en/full/1598308/police.webp?w=397&h=265&f=cd65e0722007125e80ebae8f4db0196e"
+            alt="World image" class="segment-img" />
+          <p class="segment-text highlight">
+            Choke Holds Are Still Permitted at Two South Florida Police
+            Departments
+          </p>
+        </div>
+        <div class="row segment-third bod mb-3 pt-3">
+          <img src="https://d.newsweek.com/en/full/1598308/police.webp?w=397&h=265&f=cd65e0722007125e80ebae8f4db0196e"
+            alt="World image" class="segment-img" />
+          <p class="segment-text highlight">
+            Choke Holds Are Still Permitted at Two South Florida Police
+            Departments
+          </p>
+        </div>
+        <div class="row segment-third bod mb-3 pt-3">
+          <img src="https://d.newsweek.com/en/full/1598308/police.webp?w=397&h=265&f=cd65e0722007125e80ebae8f4db0196e"
+            alt="World image" class="segment-img" />
+          <p class="segment-text highlight">
+            Choke Holds Are Still Permitted at Two South Florida Police
+            Departments
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- SUBSCRIBE SECTION -->
+    <p class="h6 segments-title text-uppercase pb-2 bod pt-4">Subscribe</p>
+    <div class="row subscribe-parent">
+      <div class="col-12 col-lg-7 subscribe">
+        <div class="image-parent">
+          <img
+            src="https://d.newsweek.com/en/full/1596252/cover-june-12-2020.jpg?w=170&q=95&f=fdda5cadbe8011b01a2d540d06703b6e"
+            alt="subscribe-img" class="sub-img1" />
+          <img
+            src="https://d.newsweek.com/en/full/1591879/may-29-june-06-2020-cover.jpg?w=170&q=95&f=56aad51c81fc710a32b2778640b7e471"
+            alt="subscribe-img" class="sub-img2" />
+        </div>
+
+        <div class="subscribe-text">
+          <p class="h4 font-weight-bolder">
+            In-depth Stories You Don't See Else where About Topics You Want to
+            Read!
+          </p>
+          <p>
+            All Access + Weekly Delivery. Choose A Membership That's Perfect
+            for You!
+          </p>
+          <button class="btn font-weight-bolder">SUBSCRIBE ></button>
+        </div>
+      </div>
+      <!-- Newsletter -->
+      <div class="col-12 col-lg-4 newsletter">
+        <div class="new-img-con">
+          <img
+            src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5"
+            alt="Newsletter image" class="newsletter-img" />
+        </div>
+        <div class="newsletter-body">
+          <p class="h4 p-2">The Starting 5</p>
+          <p class="newsletter-text text">
+            See why nearly a quarter of a million subscribers begin their day
+            with the Starting 5.
+          </p>
+          <input type="text" placeholder="Email address" class="form-control" />
+          <button class="btn mt-3">FREE SIGN UP ></button>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER SECTION -->
+    <div class="footer">
+      <div class="footer-top">
+        <div class="svg-con">
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background: new 0 0 395.6 60;" xml:space="preserve"
+            role="button">
+            <g>
+              <path class="st0"
+                d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2&#9;L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11&#9;c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7&#9;l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6&#9;H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13&#9;c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8&#9;c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2&#9;C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7&#9;h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4&#9;c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1&#9;c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6&#9;c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6&#9;C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5&#9;h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9&#9;c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2&#9;c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9&#9;C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6&#9;c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1&#9;c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6&#9;v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3&#9;c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5&#9;h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7" />
+            </g>
+            <span class="rick text-secondary">©2020NEWSWEEK</span>
+          </svg>
+        </div>
+        <div class="soc-icon">
+          <i class="fab fa-facebook-square fa-lg"></i>
+          <i class="fab fa-twitter fa-lg"></i>
+          <i class="fab fa-tumblr fa-lg"></i>
+          <i class="fab fa-instagram fa-lg"></i>
+          <i class="fab fa-linkedin fa-lg"></i>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <ul class="link-parent mt-2">
+          <li class="font-weight-bolder">Editor:</li>
+          <li class="link">U.S.Edition</li>
+          <li class="link">日本</li>
+          <li class="link">Pakistan</li>
+          <li class="link">Polska</li>
+          <li class="link borderless">România</li>
+        </ul>
+        <ul class="link-parent">
+          <li class="link">About Us</li>
+          <li class="link">Corrections</li>
+          <li class="link">Contact Us</li>
+          <li class="link">Editorial Guidelines</li>
+          <li class="link">Advertise</li>
+          <li class="link">Copyright</li>
+          <li class="link">Terms & Conditions</li>
+          <li class="link">Privacy Policy</li>
+          <li class="link">Cookie Policy</li>
+          <li class="link">Terms of Sale</li>
+          <li class="link">Archive</li>
+          <li class="link">Announcements</li>
+          <li class="link borderless">Consent preferences</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
