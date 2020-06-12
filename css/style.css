@@ -501,7 +501,7 @@ a:hover {
     display: flex;
     flex-direction: column;
   }
- 
+
   .sub-img2 {
     position: absolute;
     top: 3em;
@@ -513,7 +513,6 @@ a:hover {
     margin-top: -3em;
     z-index: 2;
     padding: 0;
- 
   }
 
   .footer-top {
