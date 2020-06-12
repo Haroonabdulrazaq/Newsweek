@@ -3,7 +3,7 @@ Bootstrap Project [Microverse]
 # Newsweek Clone 
 This project is focused on buiding responsiveness(i.e across all media size) using Bootstrap, by cloning Newsweek landing page
 
-![screenshot](./image/Screenshot.jpg)
+![screenshot](./image/Screenshot.png)
  
 ## Built With
 
