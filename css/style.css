@@ -22,7 +22,7 @@ body {
   background: white;
   display: flex;
   flex-direction: row;
-   justify-content: space-evenly; 
+  justify-content: space-evenly;
 }
 
 .nav-list {
@@ -34,15 +34,15 @@ body {
   width: 97.8%;
   margin: 0 auto;
 }
- 
+
 a {
   color: #000;
 }
 
 .nav-list a {
-  border-right: 1px solid #ddd;  
-   text-align: center;  
-   padding: 1em;  
+  border-right: 1px solid #ddd;
+  text-align: center;
+  padding: 1em;
 }
 
 .nav-right {
@@ -244,7 +244,7 @@ a:hover {
 }
 
 .editors-pick {
-  padding-top: 3% ;
+  padding-top: 3%;
   background: #fff;
   width: 97%;
   margin: 0 auto;
@@ -435,7 +435,6 @@ a:hover {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-  
   }
 
   .nav-right i {
@@ -455,23 +454,23 @@ a:hover {
 
   .in-the-magazine {
     height: auto;
-     margin-bottom: 5%;  
+    margin-bottom: 5%;
   }
 
-  .editors-pick{
-    padding-top: 5% ;
+  .editors-pick {
+    padding-top: 5%;
   }
 
   .special-img {
     width: 100%;
   }
-  
-  .subscribe{
+
+  .subscribe {
     background: lawngreen;
   }
 
-  .subscribe-text{
-    margin-left:3em;
+  .subscribe-text {
+    margin-left: 3em;
   }
 }
 
