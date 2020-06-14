@@ -1,3 +1,4 @@
+ 
 # Newsweek 
 Bootstrap Project [Microverse]
 This project is focused on buiding responsiveness(i.e across all media sizes) using Bootstrap, by cloning Newsweek landing page
@@ -27,7 +28,7 @@ From your command line, first clone the project:
 $ git clone https://github.com/Haroonabdulrazaq/Newsweek.git
 
 # Go into the repository
-$ cd Newsweek 
+$ cd Newsweek
 
 ```
 
